@@ -16,4 +16,4 @@ n1.toFixed(2)
 
 n1.toLocaleString('pt-BR', {style: 'currency', currency:'BRL'})
 
-vai retornar em-  'R$ 1,545.50'
+vai retornar em real-  'R$ 1,545.50'
