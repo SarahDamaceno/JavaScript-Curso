@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <style>
+        body{
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Iniciando estudos DOM</h1>
+    <p>Aqui vai o resultado</p>
+    <p>Aprendendo a usar <strong>DOM</strong>em JavaScript </p>
+    <div>clique em mim</div>
+
+    <script>
+      window.document.write("Ola, mundo!")
+      var corpo= window.document.body
+      var p1= document.getElementsByTagName('p')[0]; //selecionando o primeiro paragrafo
+      window.document.write(p1.innerHTML)
+      p1.style.color='blue'
+      corpo.style.background="pink"
+
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
